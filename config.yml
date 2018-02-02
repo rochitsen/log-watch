@@ -1,0 +1,12 @@
+---
+#Enter the full path and name of the log file to watch
+"logfile": C:\temp\logs\Logwatch.log
+#Enter the name of the server on which the log file is located
+"servername": Server1
+#Enter comma seperated email addresses for recipients
+"emailTo": user@email.com
+#Specify the pattern to watch for. Enclose each value between //. eg, /pttr1/,/pttr2/,..,/pttrn/
+"pattern": 
+- !ruby/regexp /ERROR/
+- !ruby/regexp /FATAL/
+---
