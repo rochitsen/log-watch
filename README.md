@@ -1,4 +1,4 @@
 log-watch
 =========
 
-Simple log tailing and email program in ruby
+Simple log tailing and email program written in ruby.
